@@ -381,11 +381,10 @@ button.btn {
 /* =================  About ==================== */
 
 .about-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    justify-content: center;
 }
 
 .left-image {
